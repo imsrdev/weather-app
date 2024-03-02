@@ -17,6 +17,17 @@ body {
   border-radius: 20px;
   text-align: center;
 }
+.info-app {
+  margin-top: 20px;
+}
+.tittle-app {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.text-tittle {
+  font-size: 20px;
+  font-family: "vazir";
+}
 .search {
   width: 100%;
   display: flex;
