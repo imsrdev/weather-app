@@ -110,7 +110,7 @@ body {
     max-width: 420px;
   }
   .search {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
   }
   .search input {
