@@ -21,11 +21,11 @@ body {
   margin-top: 20px;
 }
 .tittle-app {
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 10px;
 }
 .text-tittle {
-  font-size: 14px;
+  font-size: 20px;
   font-family: "vazir";
 }
 .search {
@@ -103,4 +103,58 @@ body {
   margin-top: 10px;
   display: none;
   color: #fff;
+}
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 90%;
+    max-width: 420px;
+  }
+  .search {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: -1px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 16px;
+    width: 200px;
+  }
+  .search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .weather-icon {
+    width: 150px;
+    margin-top: 30px;
+  }
+  .weather h1 {
+    font-size: 55px;
+    font-weight: 500;
+  }
+  .weather h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 4px;
+  }
+  .col img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  .humidity,
+  .wind {
+    font-size: 18px;
+    margin-top: -6px;
+  }
 }
