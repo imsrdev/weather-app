@@ -54,6 +54,8 @@ body {
   width: 60px;
   height: 60px;
   cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 .search button img {
   width: 16px;
